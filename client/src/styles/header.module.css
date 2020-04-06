@@ -1,0 +1,23 @@
+.text{
+    margin-right:0.5em;
+    display: inline;
+    color:#ABD2FA;
+
+
+}
+
+a{
+    color: #ABD2FA;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EFF6FE;
+    text-decoration: none;
+}
+
+.text:visited{
+    color: #ABD2FA;
+}
+
+

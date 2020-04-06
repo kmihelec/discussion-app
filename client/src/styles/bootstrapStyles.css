@@ -1,0 +1,39 @@
+.btn-edit{
+    border-color:#3EC300;
+}
+.btn-edit:hover{
+    background-color: #3EC300;
+    color:white
+}
+
+.btn-delete{
+    border-color: #ba1200;
+}
+.btn-delete:hover{
+    background-color: #ba1200;
+    color:white;
+}
+
+.btn-outline-blue{
+    border-color: #26547C;
+    color:#26547C;
+
+}
+
+.btn-outline-blue:hover{
+    background-color: #26547C;
+    color:#ABD2FA;
+}
+
+.btn-header-button{
+    border-color: #ABD2FA;
+    color:#ABD2FA;
+}
+.btn-header-button:hover{
+    background-color: #ABD2FA;
+    color:#26547C
+}
+
+.bg-header{
+    background-color:#26547C;
+}

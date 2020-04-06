@@ -1,0 +1,99 @@
+.userAndTime{
+    display: flex;
+    flex:0 1 auto;
+    flex-direction: column;
+}
+.userAndTime>*{
+    flex:0 1 auto;
+}
+
+.threadBox{
+    min-height: 5em;
+    align-items:center;
+    display:flex;
+    justify-content:space-between;
+    word-break: break-all;
+    border-bottom: 1px solid #26547C;
+
+ }
+
+.threadName{
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    color:#26547C;
+}
+
+
+.threadName:hover{
+    text-decoration: none;
+    background-color: #ABD2FA;
+}
+
+.commentBox{
+    min-height: 5em;
+    align-items:center;
+    display:flex;
+    justify-content:space-between;
+    word-break: break-all;
+    border-bottom: 1px solid #26547C;
+    color:#26547C;
+
+}
+
+.editDeleteButtons{
+    display: flex;
+    flex-direction: column;
+}
+
+.editDeleteButtons>*{
+   flex:0 1 auto;
+    width: 60%;
+}
+
+.username{
+    font-size: 1.3em;
+    color:#26547C;
+
+}
+.dateAndTime{
+    font-size: 0.8em;
+    color:#26547C;
+}
+
+.threadText{
+    color:#26547C;
+
+}
+
+.threadText div:last-child{
+    border-bottom: 1px solid #26547C;
+}
+
+@media screen and (max-width: 768px){
+
+
+    .userAndTime{
+        flex-direction: row;
+
+
+    }
+    .editDeleteButtons{
+        flex-direction: row;
+    }
+    .editDeleteButtons>*{
+
+        height: 30px;
+        align-self: center;
+        margin:1px
+    }
+    .username{
+        flex: 0 1 80%;
+        font-size: 0.9em;
+    }
+    .profile{
+        font-weight: normal;
+        font-size: 1rem;
+
+    }
+}

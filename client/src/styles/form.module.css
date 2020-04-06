@@ -1,0 +1,25 @@
+.forms{
+    margin:0;
+    padding: 0;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 94vh;
+    background-color: #EFF6FE;
+}
+
+.formBox{
+    text-align: center;
+    flex:0 1 25%;
+    background-color: #26547C;
+    color: #ABD2FA;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+@media screen and (max-width: 768px){
+    .formBox{
+        flex: 0 1 90%;
+    }
+}
